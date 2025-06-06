@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adote um Amigo - Seu Novo Companheiro Espera Por Você!</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Pular para o conteúdo principal</a>
+
+    <header role="banner">
+        <div class="container">
+            <a href="index.html" class="logo" aria-label="Página inicial do site Adote um Amigo">
+                <img src="logo_cachorros.png" alt="Logo Adote um Amigo">
+                <h1>Adote um Amigo</h1>
+            </a>
+            <nav role="navigation" aria-label="Navegação principal">
+                <button class="menu-toggle" aria-controls="main-menu" aria-expanded="false" aria-label="Abrir menu de navegação">
+                    <span class="sr-only">Menu</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <ul id="main-menu" class="nav-links" role="menubar">
+                    <li role="none"><a role="menuitem" href="index.html" aria-current="page">Início</a></li>
+                    <li role="none"><a role="menuitem" href="https://www.pedigreeadotar.com.br/">Animais para Adoção</a></li>
+                    <li role="none"><a role="menuitem" href="https://www.pedigreeadotar.com.br/help/">Como Adotar</a></li>
+                    <li role="none"><a role="menuitem" href="https://www.pedigreeadotar.com.br/our-history/">Sobre Nós</a></li>
+                    <li role="none"><a role="menuitem" href="https://www.pedigree.com.br/fale-conosco">Contato</a></li>
+                    <li role="none"><a role="menuitem" href="https://www.pedigreeadotar.com.br/help/">Doar/Voluntariar</a></li>
+                </ul>
+            </nav>
+            <div class="accessibility-controls">
+                <button id="contrast-toggle" aria-label="Alternar alto contraste" title="Alternar alto contraste">
+                    <img src="logo_cachorros.png" alt="Ícone de contraste (temporário)">
+                    <span class="sr-only">Contraste</span>
+                </button>
+                <button id="font-size-increase" aria-label="Aumentar tamanho da fonte" title="Aumentar tamanho da fonte">
+                    A+
+                </button>
+                <button id="font-size-decrease" aria-label="Diminuir tamanho da fonte" title="Diminuir tamanho da fonte">
+                    A-
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main id="main-content" role="main">
+        <section class="hero" aria-labelledby="hero-heading">
+            <div class="container">
+                <h2 id="hero-heading">Encontre seu novo melhor amigo!</h2>
+                <p>Muitos animais esperam por um lar cheio de amor. Comece sua jornada aqui.</p>
+                <div class="hero-actions">
+                    <a href="https://www.pedigree.com.br/adocao?gad_source=1&gad_campaignid=22138340587&gbraid=0AAAAABfW9Gf09JqLewX4l5cQzBKZQxxfp&gclid=Cj0KCQjwucDBBhDxARIsANqFdr1T1uQzU6m5QWLmyCXaSwmMf-HNntNjLAUbT-YCKpqAmnFr2vsiCGoaAoT4EALw_wcB" 
+                       class="button button-primary" 
+                       aria-label="Ver animais disponíveis para adoção ou adotar agora">
+                        Adote Aqui! <span aria-hidden="true">→</span>
+                    </a>
+                    <a href="https://www.pedigree.com.br/adocao/adotar-e-tudo-de-bom" class="button button-secondary" aria-label="Entender o processo de adoção">
+                        Como adotar
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="featured-animals" aria-labelledby="featured-heading">
+            <div class="container">
+                <h2 id="featured-heading">Animais em Destaque</h2>
+                <div class="animal-grid">
+                    <article class="animal-card" tabindex="0" aria-label="Cão, nome: Rex, idade: 2 anos, raça: Vira-lata">
+                        <img src="vira-lata-filhote.png" alt="Foto do cão Rex"> 
+                        <h3>Rex</h3>
+                        <p>Idade: 2 anos</p>
+                        <p>Raça: Vira-lata</p>
+                        <p>Calmo e brincalhão, adora passear!</p>
+                        <div class="card-actions">
+                            <a href="animal-detalhe.html?id=rex" class="button button-small" aria-label="Ver mais detalhes sobre Rex">Detalhes</a>
+                            <button class="button button-icon" aria-label="Adicionar Rex aos favoritos">
+                                <span class="sr-only">Adicionar aos favoritos</span>
+                            </button>
+                        </div>
+                    </article>
+                    <article class="animal-card" tabindex="0" aria-label="Cão, nome: Theo, idade: 1 ano, raça: Shih Tzu">
+                        <img src="quanto-custa-raca-shih-tzu-filhote.jpg" alt="Foto do cão Theo">
+                        <h3>Theo</h3>
+                        <p>Idade: 1 ano</p>
+                        <p>Raça: Shih Tzu</p>
+                        <p>Calmo e brincalhão, adora passear!</p>
+                        <div class="card-actions">
+                            <a href="animal-detalhe.html?id=theo" class="button button-small" aria-label="Ver mais detalhes sobre Theo">Detalhes</a>
+                            <button class="button button-icon" aria-label="Adicionar Theo aos favoritos">
+                                <span class="sr-only">Adicionar aos favoritos</span>
+                            </button>
+                        </div>
+                    </article>
+                    <article class="animal-card" tabindex="0" aria-label="Gata, nome: Mia, idade: 1 ano, raça: Siamês">
+                        <img src="35067549-29190128798057.webp" alt="Foto da gata Mia">
+                        <h3>Mia</h3>
+                        <p>Idade: 1 ano</p>
+                        <p>Raça: Siamês</p>
+                        <p>Carinhosa e curiosa, procura um colo!</p>
+                        <div class="card-actions">
+                            <a href="animal-detalhe.html?id=mia" class="button button-small" aria-label="Ver mais detalhes sobre Mia">Detalhes</a>
+                            <button class="button button-icon" aria-label="Adicionar Mia aos favoritos">
+                                <span class="sr-only">Adicionar aos favoritos</span>
+                            </button>
+                        </div>
+                    </article>
+                </div>
+                <div class="section-actions">
+                    <a href="https://www.pedigreeadotar.com.br/" class="button button-tertiary" aria-label="Explorar todos os animais para adoção">
+                        Ver Todos os Animais <span aria-hidden="true">→</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="call-to-action" aria-labelledby="cta-heading">
+            <div class="container">
+                <h2 id="cta-heading">Ajude-nos a fazer a diferença!</h2>
+                <p>Sua doação ou tempo como voluntário pode transformar vidas.</p>
+                <div class="cta-buttons">
+                    <a href="https://www.pedigree.com.br/nossos-produtos" class="button button-primary" aria-label="Faça uma doação para a causa animal">Doar Agora</a>
+                    <a href="https://institutoamparanimal.org.br/" class="button button-secondary" aria-label="Saiba como ser um voluntário">Ser Voluntário</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer role="contentinfo">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col about-us">
+                    <h3>Adote um Amigo</h3>
+                    <p>Conectando corações e patas, um lar de cada vez. Nossa missão é encontrar lares seguros e amorosos para animais necessitados.</p>
+                </div>
+                <div class="footer-col quick-links">
+                    <h3>Links Rápidos</h3>
+                    <ul role="list">
+                        <li role="listitem"><a href="adotar.html">Animais</a></li>
+                        <li role="listitem"><a href="como-adotar.html">Processo de Adoção</a></li>
+                        <li role="listitem"><a href="sobre.html">Quem Somos</a></li>
+                        <li role="listitem"><a href="doar.html">Doar</a></li>
+                        <li role="listitem"><a href="contato.html">Fale Conosco</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col contact-info">
+                    <h3>Contato</h3>
+                    <address>
+                        <p>Rua xyz, 123 - Cidade, UF</p>
+                        <p><a href="tel:+5511987654321">(11) 98765-4321</a></p>
+                        <p><a href="mailto:contato@adoteumamigo.org">contato@adoteumamigo.org</a></p>
+                    </address>
+                </div>
+                <div class="footer-col social-media">
+                    <h3>Siga-nos</h3>
+                    <ul class="social-links" role="list" aria-label="Redes sociais">
+                        <li role="listitem"><a href="#" aria-label="Visite nosso Facebook"><img src="icone-de-midia-social-do-facebook-3d_466778-4384.avif" alt="Ícone do Facebook"></a></li>
+                        <li role="listitem"><a href="#" aria-label="Visite nosso Instagram"><img src="icone-de-logotipo-de-vetor-do-instagram-logotipo-de-midia-social_901408-392.avif" alt="Ícone do Instagram"></a></li>
+                        <li role="listitem"><a href="#" aria-label="Visite nosso Twitter/X"><img src="cone-de-twitter-ícone-social-popular-do-gorjeio-dos-meios-no-fundo-branco-isolado-transparente-154683673.webp" alt="Ícone do Twitter"></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Adote um Amigo. Todos os direitos reservados.</p>
+                <ul class="footer-utility-links" role="list">
+                    <li role="listitem"><a href="#">Política de Privacidade</a></li>
+                    <li role="listitem"><a href="#">Termos de Serviço</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
